@@ -1,0 +1,4114 @@
+<html xmlns:math="http://exslt.org/math" xmlns:testng="http://testng.org">
+   <head>
+      <title>TestNG Results</title>
+      <meta http-equiv="content-type" content="text/html; charset=utf-8"></meta>
+      <meta http-equiv="pragma" content="no-cache"></meta>
+      <meta http-equiv="cache-control" content="max-age=0"></meta>
+      <meta http-equiv="cache-control" content="no-cache"></meta>
+      <meta http-equiv="cache-control" content="no-store"></meta>
+      <LINK rel="stylesheet" href="style.css"></LINK>
+      <script type="text/javascript" src="main.js"></script>
+   </head>
+   <body>
+      <table width="100%" style="font-size: 16px; margin-bottom: 10px;" cellspacing="1">
+         <tr>
+            <td width="100%">
+               Test case
+               
+               <b>Test</b>
+            </td>
+            <td style="background-color: #FFBBBB; padding: 3px 3px 3px 0;" align="center">
+               <div style="width: 50px;">3</div>
+            </td>
+            <td style="background-color: lightgreen; padding: 3px 3px 3px 0;" align="center">
+               <div style="width: 50px;">16</div>
+            </td>
+            <td style="background-color: #FFFFBB; padding: 3px 3px 3px 0;" align="center">
+               <div style="width: 50px;">0</div>
+            </td>
+            <td align="center" style="background-color: #eaf0f7; padding: 3px 3px 3px 0;">
+               <div style="width: 50px;">19</div>
+            </td>
+            <td align="center"
+                style="font-weight: bold; background-color: #eaf0f7; padding: 3px 3px 3px 0;">
+               <div style="width: 50px;">84%</div>
+            </td>
+            <td style="background-color: #eaf0f7; padding: 3px 3px 3px 0;" align="center"
+                nowrap="true">3m
+               15s
+               
+            </td>
+         </tr>
+      </table>
+      <div style="width: 200px;">
+         <label for="groupMethodsCheckBox" style="font-weight: bold; margin: 0;">
+            <input id="groupMethodsCheckBox" type="checkbox" onclick="switchTestMethodsView(this)"
+                   checked=""></input>
+            Group by class
+            
+         </label>
+         <br></br>
+         <label for="methodsFilter_ALL" style="font-weight: bold; margin: 0;">
+            <input id="methodsFilter_ALL" type="checkbox"
+                   onclick="testMethodsFilterChanged(this, 'ALL')"
+                   checked=""></input>
+            All
+            
+         </label>
+      </div>
+      <label for="methodsFilter_FAIL" style="margin-left: 20px;">
+         <input id="methodsFilter_FAIL" type="checkbox"
+                onclick="testMethodsFilterChanged(this, 'FAIL')"
+                checked=""></input>
+         Failed
+         
+      </label>
+      <label for="methodsFilter_PASS">
+         <input id="methodsFilter_PASS" type="checkbox"
+                onclick="testMethodsFilterChanged(this, 'PASS')"
+                checked=""></input>
+         Passed
+         
+      </label>
+      <label for="methodsFilter_SKIP">
+         <input id="methodsFilter_SKIP" type="checkbox"
+                onclick="testMethodsFilterChanged(this, 'SKIP')"
+                checked=""></input>
+         Skipped
+         
+      </label>
+      <label for="methodsFilter_CONF">
+         <input id="methodsFilter_CONF" type="checkbox"
+                onclick="testMethodsFilterChanged(this, 'CONF')"
+                checked=""></input>
+         Config
+         
+      </label>
+      <br></br>
+      <div id="testMethodsByStatus" style="display: none;">
+         <table class="testMethodsTable" cellpadding="0" cellspacing="0">
+            <tr class="methodsTableHeader">
+               <td width="100%">Name</td>
+               <td nowrap="true">Started</td>
+               <td nowrap="true">Duration</td>
+               <td>Exception</td>
+            </tr>
+            <tr id="SkillSpark.CourseAdd_courseAdd_byStatus_failed_FAIL1_row"
+                class="testMethodStatusFAIL">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('SkillSpark.CourseAdd_courseAdd_byStatus_failed_FAIL1_details')">courseAdd(Flutter
+                     
+                     ,
+                     
+                     
+                     
+                     ,
+                     
+                     78
+                     
+                     ,
+                     
+                     App Development
+                     
+                     ,
+                     
+                     [Ljava.lang.String;@598657cd
+                     
+                     ,
+                     
+                     E:\Downloads\flutter.jpeg
+                     
+                     ,
+                     
+                     You will be a master in web development
+                     
+                     ,
+                     
+                     [Ljava.lang.String;@456aa471
+                     
+                     ,
+                     
+                     [Ljava.lang.String;@69e2fe3b
+                     
+                     ,
+                     
+                     [LSkillSpark.CourseAdd$Lecture;@27afbf14
+                     
+                     ,
+                     
+                     true)
+                  </a>
+               </td>
+               <td nowrap="true">20:44:03</td>
+               <td nowrap="true" align="right">11s
+                  
+               </td>
+               <td nowrap="true">
+                  <a onclick="toggleDetailsVisibility('SkillSpark.CourseAdd_courseAdd_byStatus_failed_FAIL1_exception')">org.openqa.selenium.NoSuchElementException: 
+                     no such element: Unable to locate element: {"method":"css selector","selector":"*[name='sectionName']"}
+                     (Session info: chrome=124.0.6367.63)
+                     For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+                     Build info: version: '4.18.1', revision: 'b1d3319b48'
+                     System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+                     Driver info: org.openqa.selenium.chrome.ChromeDriver
+                     Command: [fa7f11bd1cc09c01037e8cc270773f2f, findElement {using=name, value=sectionName}]
+                     Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.63, chrome: {chromedriverVersion:
+                     124.0.6367.91 (51df0e5e17a8..., userDataDir: C:\Users\ASUS\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress:
+                     localhost:58373}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp:
+                     ws://localhost:58373/devtoo..., se:cdpVersion: 124.0.6367.63, setWindowRect: true, strictFileInteractability: false, timeouts:
+                     {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob:
+                     true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators:
+                     true}
+                     Session ID: fa7f11bd1cc09c01037e8cc270773f2f
+                     
+                  </a>
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="SkillSpark.CourseAdd_courseAdd_byStatus_failed_FAIL1_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>courseAdd
+                     </div>
+                     <div>
+                        <b>Signature: </b>courseAdd(java.lang.String,java.lang.String,java.lang.String,java.lang.String,[Ljava.lang.String;,java.lang.String,java.lang.String,[Ljava.lang.String;,[Ljava.lang.String;,[LSkillSpark.CourseAdd$Lecture;,boolean)[pri:0,
+                        instance:SkillSpark.CourseAdd@6892b3b6]
+                     </div>
+                     <div>
+                        <b>Parameters: </b>
+                        
+                        Flutter
+                        
+                        ,
+                        
+                        
+                        
+                        ,
+                        
+                        78
+                        
+                        ,
+                        
+                        App Development
+                        
+                        ,
+                        
+                        [Ljava.lang.String;@598657cd
+                        
+                        ,
+                        
+                        E:\Downloads\flutter.jpeg
+                        
+                        ,
+                        
+                        You will be a master in web development
+                        
+                        ,
+                        
+                        [Ljava.lang.String;@456aa471
+                        
+                        ,
+                        
+                        [Ljava.lang.String;@69e2fe3b
+                        
+                        ,
+                        
+                        [LSkillSpark.CourseAdd$Lecture;@27afbf14
+                        
+                        ,
+                        
+                        true
+                        
+                        
+                     </div>
+                     <div>
+                        <b>Start time: </b>20:44:03
+                     </div>
+                     <div>
+                        <b>End time: </b>20:44:15
+                     </div>
+                     <div>
+                        <b>Duration: </b>11s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="SkillSpark.CourseAdd_courseAdd_byStatus_failed_FAIL1_exception"
+                       class="testMethodDetails">
+                     <pre style="padding: 5px; margin: 0;">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"*[name='sectionName']"}
+                        (Session info: chrome=124.0.6367.63)
+                        For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+                        Build info: version: '4.18.1', revision: 'b1d3319b48'
+                        System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+                        Driver info: org.openqa.selenium.chrome.ChromeDriver
+                        Command: [fa7f11bd1cc09c01037e8cc270773f2f, findElement {using=name, value=sectionName}]
+                        Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.63, chrome: {chromedriverVersion:
+                        124.0.6367.91 (51df0e5e17a8..., userDataDir: C:\Users\ASUS\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress:
+                        localhost:58373}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp:
+                        ws://localhost:58373/devtoo..., se:cdpVersion: 124.0.6367.63, setWindowRect: true, strictFileInteractability: false, timeouts:
+                        {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob:
+                        true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators:
+                        true}
+                        Session ID: fa7f11bd1cc09c01037e8cc270773f2f
+                        at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+                        at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+                        at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+                        at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+                        at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+                        at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+                        at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+                        at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+                        at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+                        at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+                        at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+                        at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+                        at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+                        at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+                        at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
+                        at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+                        at SkillSpark.CourseAdd.part2(CourseAdd.java:34)
+                        at SkillSpark.CourseAdd.courseAdd(CourseAdd.java:114)
+                        at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+                        at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+                        at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+                        at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+                        at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+                        at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+                        at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+                        at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+                        at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+                        at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+                        at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+                        at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+                        at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+                        at org.testng.TestRunner.privateRun(TestRunner.java:819)
+                        at org.testng.TestRunner.run(TestRunner.java:619)
+                        at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+                        at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+                        at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+                        at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+                        at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+                        at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+                        at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+                        at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+                        at org.testng.TestNG.runSuites(TestNG.java:1134)
+                        at org.testng.TestNG.run(TestNG.java:1101)
+                        at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+                        at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+                        at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+                     </pre>
+                  </div>
+               </td>
+            </tr>
+            <tr id="SkillSpark.Login_loginFunction_byStatus_failed_FAIL2_row"
+                class="testMethodStatusFAIL">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('SkillSpark.Login_loginFunction_byStatus_failed_FAIL2_details')">loginFunction(rvrv66692@gmail.com
+                     
+                     ,
+                     
+                     654321@Abc)
+                  </a>
+               </td>
+               <td nowrap="true">20:44:16</td>
+               <td nowrap="true" align="right">9s
+                  
+               </td>
+               <td nowrap="true">
+                  <a onclick="toggleDetailsVisibility('SkillSpark.Login_loginFunction_byStatus_failed_FAIL2_exception')">java.lang.AssertionError: 
+                     expected [https://new-skill-spark.vercel.app/dashboard/my-profile] but found [https://new-skill-spark.vercel.app/signup]
+                     
+                  </a>
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="SkillSpark.Login_loginFunction_byStatus_failed_FAIL2_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>loginFunction
+                     </div>
+                     <div>
+                        <b>Signature: </b>loginFunction(java.lang.String,java.lang.String)[pri:0, instance:SkillSpark.Login@6e6f2380]
+                     </div>
+                     <div>
+                        <b>Parameters: </b>
+                        
+                        rvrv66692@gmail.com
+                        
+                        ,
+                        
+                        654321@Abc
+                        
+                        
+                     </div>
+                     <div>
+                        <b>Start time: </b>20:44:16
+                     </div>
+                     <div>
+                        <b>End time: </b>20:44:25
+                     </div>
+                     <div>
+                        <b>Duration: </b>9s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="SkillSpark.Login_loginFunction_byStatus_failed_FAIL2_exception"
+                       class="testMethodDetails">
+                     <pre style="padding: 5px; margin: 0;">java.lang.AssertionError: expected [https://new-skill-spark.vercel.app/dashboard/my-profile] but found [https://new-skill-spark.vercel.app/signup]
+                        at org.testng.Assert.fail(Assert.java:111)
+                        at org.testng.Assert.failNotEquals(Assert.java:1578)
+                        at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+                        at org.testng.Assert.assertEquals(Assert.java:132)
+                        at org.testng.Assert.assertEquals(Assert.java:656)
+                        at org.testng.Assert.assertEquals(Assert.java:666)
+                        at SkillSpark.Login.loginFunction(Login.java:21)
+                        at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+                        at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+                        at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+                        at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+                        at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+                        at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+                        at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+                        at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+                        at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+                        at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+                        at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+                        at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+                        at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+                        at org.testng.TestRunner.privateRun(TestRunner.java:819)
+                        at org.testng.TestRunner.run(TestRunner.java:619)
+                        at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+                        at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+                        at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+                        at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+                        at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+                        at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+                        at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+                        at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+                        at org.testng.TestNG.runSuites(TestNG.java:1134)
+                        at org.testng.TestNG.run(TestNG.java:1101)
+                        at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+                        at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+                        at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+                     </pre>
+                  </div>
+               </td>
+            </tr>
+            <tr id="SkillSpark.Login_loginFunction_byStatus_failed_FAIL3_row"
+                class="testMethodStatusFAIL">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('SkillSpark.Login_loginFunction_byStatus_failed_FAIL3_details')">loginFunction(bhjsdfjg@ggmail.com
+                     
+                     ,
+                     
+                     654321@Abc)
+                  </a>
+               </td>
+               <td nowrap="true">20:44:25</td>
+               <td nowrap="true" align="right">9s
+                  
+               </td>
+               <td nowrap="true">
+                  <a onclick="toggleDetailsVisibility('SkillSpark.Login_loginFunction_byStatus_failed_FAIL3_exception')">java.lang.AssertionError: 
+                     expected [https://new-skill-spark.vercel.app/dashboard/my-profile] but found [https://new-skill-spark.vercel.app/signup]
+                     
+                  </a>
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="SkillSpark.Login_loginFunction_byStatus_failed_FAIL3_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>loginFunction
+                     </div>
+                     <div>
+                        <b>Signature: </b>loginFunction(java.lang.String,java.lang.String)[pri:0, instance:SkillSpark.Login@6e6f2380]
+                     </div>
+                     <div>
+                        <b>Parameters: </b>
+                        
+                        bhjsdfjg@ggmail.com
+                        
+                        ,
+                        
+                        654321@Abc
+                        
+                        
+                     </div>
+                     <div>
+                        <b>Start time: </b>20:44:25
+                     </div>
+                     <div>
+                        <b>End time: </b>20:44:35
+                     </div>
+                     <div>
+                        <b>Duration: </b>9s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="SkillSpark.Login_loginFunction_byStatus_failed_FAIL3_exception"
+                       class="testMethodDetails">
+                     <pre style="padding: 5px; margin: 0;">java.lang.AssertionError: expected [https://new-skill-spark.vercel.app/dashboard/my-profile] but found [https://new-skill-spark.vercel.app/signup]
+                        at org.testng.Assert.fail(Assert.java:111)
+                        at org.testng.Assert.failNotEquals(Assert.java:1578)
+                        at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+                        at org.testng.Assert.assertEquals(Assert.java:132)
+                        at org.testng.Assert.assertEquals(Assert.java:656)
+                        at org.testng.Assert.assertEquals(Assert.java:666)
+                        at SkillSpark.Login.loginFunction(Login.java:21)
+                        at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+                        at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+                        at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+                        at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+                        at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+                        at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+                        at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+                        at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+                        at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+                        at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+                        at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+                        at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+                        at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+                        at org.testng.TestRunner.privateRun(TestRunner.java:819)
+                        at org.testng.TestRunner.run(TestRunner.java:619)
+                        at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+                        at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+                        at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+                        at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+                        at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+                        at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+                        at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+                        at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+                        at org.testng.TestNG.runSuites(TestNG.java:1134)
+                        at org.testng.TestNG.run(TestNG.java:1101)
+                        at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+                        at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+                        at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+                     </pre>
+                  </div>
+               </td>
+            </tr>
+            <tr id="SkillSpark.Signup_main_function_byStatus_passed_PASS1_row"
+                class="testMethodStatusPASS">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('SkillSpark.Signup_main_function_byStatus_passed_PASS1_details')">main_function(John
+                     
+                     ,
+                     
+                     Doe
+                     
+                     ,
+                     
+                     john.doe@example.com
+                     
+                     ,
+                     
+                     passwor
+                     
+                     ,
+                     
+                     passwor)
+                  </a>
+               </td>
+               <td nowrap="true">20:41:19</td>
+               <td nowrap="true" align="right">9s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="SkillSpark.Signup_main_function_byStatus_passed_PASS1_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>main_function
+                     </div>
+                     <div>
+                        <b>Signature: </b>main_function(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:SkillSpark.Signup@942a29c]
+                     </div>
+                     <div>
+                        <b>Parameters: </b>
+                        
+                        John
+                        
+                        ,
+                        
+                        Doe
+                        
+                        ,
+                        
+                        john.doe@example.com
+                        
+                        ,
+                        
+                        passwor
+                        
+                        ,
+                        
+                        passwor
+                        
+                        
+                     </div>
+                     <div>
+                        <b>Start time: </b>20:41:19
+                     </div>
+                     <div>
+                        <b>End time: </b>20:41:29
+                     </div>
+                     <div>
+                        <b>Duration: </b>9s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="SkillSpark.Signup_main_function_byStatus_passed_PASS2_row"
+                class="testMethodStatusPASS">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('SkillSpark.Signup_main_function_byStatus_passed_PASS2_details')">main_function(Jane
+                     
+                     ,
+                     
+                     Doe
+                     
+                     ,
+                     
+                     jane.doe@example.com
+                     
+                     ,
+                     
+                     veryLongPassword1234567890
+                     
+                     ,
+                     
+                     veryLongPassword1234567890)
+                  </a>
+               </td>
+               <td nowrap="true">20:41:29</td>
+               <td nowrap="true" align="right">9s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="SkillSpark.Signup_main_function_byStatus_passed_PASS2_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>main_function
+                     </div>
+                     <div>
+                        <b>Signature: </b>main_function(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:SkillSpark.Signup@942a29c]
+                     </div>
+                     <div>
+                        <b>Parameters: </b>
+                        
+                        Jane
+                        
+                        ,
+                        
+                        Doe
+                        
+                        ,
+                        
+                        jane.doe@example.com
+                        
+                        ,
+                        
+                        veryLongPassword1234567890
+                        
+                        ,
+                        
+                        veryLongPassword1234567890
+                        
+                        
+                     </div>
+                     <div>
+                        <b>Start time: </b>20:41:29
+                     </div>
+                     <div>
+                        <b>End time: </b>20:41:38
+                     </div>
+                     <div>
+                        <b>Duration: </b>9s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="SkillSpark.Signup_main_function_byStatus_passed_PASS3_row"
+                class="testMethodStatusPASS">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('SkillSpark.Signup_main_function_byStatus_passed_PASS3_details')">main_function(Michael
+                     
+                     ,
+                     
+                     Scott
+                     
+                     ,
+                     
+                     michael.scott@dundermifflin.com
+                     
+                     ,
+                     
+                     PASSWORD123!
+                     
+                     ,
+                     
+                     PASSWORD123!)
+                  </a>
+               </td>
+               <td nowrap="true">20:41:38</td>
+               <td nowrap="true" align="right">9s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="SkillSpark.Signup_main_function_byStatus_passed_PASS3_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>main_function
+                     </div>
+                     <div>
+                        <b>Signature: </b>main_function(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:SkillSpark.Signup@942a29c]
+                     </div>
+                     <div>
+                        <b>Parameters: </b>
+                        
+                        Michael
+                        
+                        ,
+                        
+                        Scott
+                        
+                        ,
+                        
+                        michael.scott@dundermifflin.com
+                        
+                        ,
+                        
+                        PASSWORD123!
+                        
+                        ,
+                        
+                        PASSWORD123!
+                        
+                        
+                     </div>
+                     <div>
+                        <b>Start time: </b>20:41:38
+                     </div>
+                     <div>
+                        <b>End time: </b>20:41:48
+                     </div>
+                     <div>
+                        <b>Duration: </b>9s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="SkillSpark.Signup_main_function_byStatus_passed_PASS4_row"
+                class="testMethodStatusPASS">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('SkillSpark.Signup_main_function_byStatus_passed_PASS4_details')">main_function(Dwight
+                     
+                     ,
+                     
+                     Schrute
+                     
+                     ,
+                     
+                     dwight.schrute@dundermifflin.com
+                     
+                     ,
+                     
+                     password123$
+                     
+                     ,
+                     
+                     password123$)
+                  </a>
+               </td>
+               <td nowrap="true">20:41:48</td>
+               <td nowrap="true" align="right">10s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="SkillSpark.Signup_main_function_byStatus_passed_PASS4_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>main_function
+                     </div>
+                     <div>
+                        <b>Signature: </b>main_function(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:SkillSpark.Signup@942a29c]
+                     </div>
+                     <div>
+                        <b>Parameters: </b>
+                        
+                        Dwight
+                        
+                        ,
+                        
+                        Schrute
+                        
+                        ,
+                        
+                        dwight.schrute@dundermifflin.com
+                        
+                        ,
+                        
+                        password123$
+                        
+                        ,
+                        
+                        password123$
+                        
+                        
+                     </div>
+                     <div>
+                        <b>Start time: </b>20:41:48
+                     </div>
+                     <div>
+                        <b>End time: </b>20:41:59
+                     </div>
+                     <div>
+                        <b>Duration: </b>10s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="SkillSpark.Signup_main_function_byStatus_passed_PASS5_row"
+                class="testMethodStatusPASS">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('SkillSpark.Signup_main_function_byStatus_passed_PASS5_details')">main_function(Pam
+                     
+                     ,
+                     
+                     Beesly
+                     
+                     ,
+                     
+                     pam.beesly@dundermifflin.com
+                     
+                     ,
+                     
+                     password1234
+                     
+                     ,
+                     
+                     password1234)
+                  </a>
+               </td>
+               <td nowrap="true">20:41:59</td>
+               <td nowrap="true" align="right">9s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="SkillSpark.Signup_main_function_byStatus_passed_PASS5_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>main_function
+                     </div>
+                     <div>
+                        <b>Signature: </b>main_function(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:SkillSpark.Signup@942a29c]
+                     </div>
+                     <div>
+                        <b>Parameters: </b>
+                        
+                        Pam
+                        
+                        ,
+                        
+                        Beesly
+                        
+                        ,
+                        
+                        pam.beesly@dundermifflin.com
+                        
+                        ,
+                        
+                        password1234
+                        
+                        ,
+                        
+                        password1234
+                        
+                        
+                     </div>
+                     <div>
+                        <b>Start time: </b>20:41:59
+                     </div>
+                     <div>
+                        <b>End time: </b>20:42:08
+                     </div>
+                     <div>
+                        <b>Duration: </b>9s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="SkillSpark.Signup_main_function_byStatus_passed_PASS6_row"
+                class="testMethodStatusPASS">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('SkillSpark.Signup_main_function_byStatus_passed_PASS6_details')">main_function(Jim
+                     
+                     ,
+                     
+                     Halpert
+                     
+                     ,
+                     
+                     jim.halpert@dundermifflin.com
+                     
+                     ,
+                     
+                     password123$
+                     
+                     ,
+                     
+                     differentPassword)
+                  </a>
+               </td>
+               <td nowrap="true">20:42:08</td>
+               <td nowrap="true" align="right">9s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="SkillSpark.Signup_main_function_byStatus_passed_PASS6_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>main_function
+                     </div>
+                     <div>
+                        <b>Signature: </b>main_function(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:SkillSpark.Signup@942a29c]
+                     </div>
+                     <div>
+                        <b>Parameters: </b>
+                        
+                        Jim
+                        
+                        ,
+                        
+                        Halpert
+                        
+                        ,
+                        
+                        jim.halpert@dundermifflin.com
+                        
+                        ,
+                        
+                        password123$
+                        
+                        ,
+                        
+                        differentPassword
+                        
+                        
+                     </div>
+                     <div>
+                        <b>Start time: </b>20:42:08
+                     </div>
+                     <div>
+                        <b>End time: </b>20:42:18
+                     </div>
+                     <div>
+                        <b>Duration: </b>9s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="SkillSpark.Signup_main_function_byStatus_passed_PASS7_row"
+                class="testMethodStatusPASS">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('SkillSpark.Signup_main_function_byStatus_passed_PASS7_details')">main_function(Angela
+                     
+                     ,
+                     
+                     Martin
+                     
+                     ,
+                     
+                     angela.martin@dundermifflin.com
+                     
+                     ,
+                     
+                     Password123$
+                     
+                     ,
+                     
+                     Password123$)
+                  </a>
+               </td>
+               <td nowrap="true">20:42:18</td>
+               <td nowrap="true" align="right">9s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="SkillSpark.Signup_main_function_byStatus_passed_PASS7_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>main_function
+                     </div>
+                     <div>
+                        <b>Signature: </b>main_function(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:SkillSpark.Signup@942a29c]
+                     </div>
+                     <div>
+                        <b>Parameters: </b>
+                        
+                        Angela
+                        
+                        ,
+                        
+                        Martin
+                        
+                        ,
+                        
+                        angela.martin@dundermifflin.com
+                        
+                        ,
+                        
+                        Password123$
+                        
+                        ,
+                        
+                        Password123$
+                        
+                        
+                     </div>
+                     <div>
+                        <b>Start time: </b>20:42:18
+                     </div>
+                     <div>
+                        <b>End time: </b>20:42:27
+                     </div>
+                     <div>
+                        <b>Duration: </b>9s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="SkillSpark.Signup_main_function_byStatus_passed_PASS8_row"
+                class="testMethodStatusPASS">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('SkillSpark.Signup_main_function_byStatus_passed_PASS8_details')">main_function(Kevin
+                     
+                     ,
+                     
+                     Malone
+                     
+                     ,
+                     
+                     kevin.malone@dundermifflin.com
+                     
+                     ,
+                     
+                     654321@Abc
+                     
+                     ,
+                     
+                     65432@Ab)
+                  </a>
+               </td>
+               <td nowrap="true">20:42:27</td>
+               <td nowrap="true" align="right">9s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="SkillSpark.Signup_main_function_byStatus_passed_PASS8_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>main_function
+                     </div>
+                     <div>
+                        <b>Signature: </b>main_function(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:SkillSpark.Signup@942a29c]
+                     </div>
+                     <div>
+                        <b>Parameters: </b>
+                        
+                        Kevin
+                        
+                        ,
+                        
+                        Malone
+                        
+                        ,
+                        
+                        kevin.malone@dundermifflin.com
+                        
+                        ,
+                        
+                        654321@Abc
+                        
+                        ,
+                        
+                        65432@Ab
+                        
+                        
+                     </div>
+                     <div>
+                        <b>Start time: </b>20:42:27
+                     </div>
+                     <div>
+                        <b>End time: </b>20:42:37
+                     </div>
+                     <div>
+                        <b>Duration: </b>9s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="SkillSpark.Signup_main_function_byStatus_passed_PASS9_row"
+                class="testMethodStatusPASS">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('SkillSpark.Signup_main_function_byStatus_passed_PASS9_details')">main_function(Oscar
+                     
+                     ,
+                     
+                     Martinez
+                     
+                     ,
+                     
+                     oscar.martinez@dundermifflin.com
+                     
+                     ,
+                     
+                     12345678@ADc
+                     
+                     ,
+                     
+                     12345678@ADc)
+                  </a>
+               </td>
+               <td nowrap="true">20:42:37</td>
+               <td nowrap="true" align="right">9s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="SkillSpark.Signup_main_function_byStatus_passed_PASS9_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>main_function
+                     </div>
+                     <div>
+                        <b>Signature: </b>main_function(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:SkillSpark.Signup@942a29c]
+                     </div>
+                     <div>
+                        <b>Parameters: </b>
+                        
+                        Oscar
+                        
+                        ,
+                        
+                        Martinez
+                        
+                        ,
+                        
+                        oscar.martinez@dundermifflin.com
+                        
+                        ,
+                        
+                        12345678@ADc
+                        
+                        ,
+                        
+                        12345678@ADc
+                        
+                        
+                     </div>
+                     <div>
+                        <b>Start time: </b>20:42:37
+                     </div>
+                     <div>
+                        <b>End time: </b>20:42:46
+                     </div>
+                     <div>
+                        <b>Duration: </b>9s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="SkillSpark.CourseAdd_beforeMethod_byStatus_passed_PASS10_row"
+                class="testMethodStatusPASS testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('SkillSpark.CourseAdd_beforeMethod_byStatus_passed_PASS10_details')">beforeMethod()</a>
+               </td>
+               <td nowrap="true">20:43:34</td>
+               <td nowrap="true" align="right">2s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="SkillSpark.CourseAdd_beforeMethod_byStatus_passed_PASS10_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>beforeMethod
+                     </div>
+                     <div>
+                        <b>Signature: </b>beforeMethod()[pri:0, instance:SkillSpark.CourseAdd@6892b3b6]
+                     </div>
+                     <div>
+                        <b>Start time: </b>20:43:34
+                     </div>
+                     <div>
+                        <b>End time: </b>20:43:36
+                     </div>
+                     <div>
+                        <b>Duration: </b>2s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="SkillSpark.CourseAdd_courseAdd_byStatus_passed_PASS11_row"
+                class="testMethodStatusPASS">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('SkillSpark.CourseAdd_courseAdd_byStatus_passed_PASS11_details')">courseAdd(MERN stack
+                     
+                     ,
+                     
+                     This is a mern stack course
+                     
+                     ,
+                     
+                     65
+                     
+                     ,
+                     
+                     Web Development
+                     
+                     ,
+                     
+                     [Ljava.lang.String;@598657cd
+                     
+                     ,
+                     
+                     E:\Downloads\mern-stack.png
+                     
+                     ,
+                     
+                     Will make you a good web developer
+                     
+                     ,
+                     
+                     [Ljava.lang.String;@456aa471
+                     
+                     ,
+                     
+                     [Ljava.lang.String;@69e2fe3b
+                     
+                     ,
+                     
+                     [LSkillSpark.CourseAdd$Lecture;@27afbf14
+                     
+                     ,
+                     
+                     true)
+                  </a>
+               </td>
+               <td nowrap="true">20:43:36</td>
+               <td nowrap="true" align="right">10s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="SkillSpark.CourseAdd_courseAdd_byStatus_passed_PASS11_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>courseAdd
+                     </div>
+                     <div>
+                        <b>Signature: </b>courseAdd(java.lang.String,java.lang.String,java.lang.String,java.lang.String,[Ljava.lang.String;,java.lang.String,java.lang.String,[Ljava.lang.String;,[Ljava.lang.String;,[LSkillSpark.CourseAdd$Lecture;,boolean)[pri:0,
+                        instance:SkillSpark.CourseAdd@6892b3b6]
+                     </div>
+                     <div>
+                        <b>Parameters: </b>
+                        
+                        MERN stack
+                        
+                        ,
+                        
+                        This is a mern stack course
+                        
+                        ,
+                        
+                        65
+                        
+                        ,
+                        
+                        Web Development
+                        
+                        ,
+                        
+                        [Ljava.lang.String;@598657cd
+                        
+                        ,
+                        
+                        E:\Downloads\mern-stack.png
+                        
+                        ,
+                        
+                        Will make you a good web developer
+                        
+                        ,
+                        
+                        [Ljava.lang.String;@456aa471
+                        
+                        ,
+                        
+                        [Ljava.lang.String;@69e2fe3b
+                        
+                        ,
+                        
+                        [LSkillSpark.CourseAdd$Lecture;@27afbf14
+                        
+                        ,
+                        
+                        true
+                        
+                        
+                     </div>
+                     <div>
+                        <b>Start time: </b>20:43:36
+                     </div>
+                     <div>
+                        <b>End time: </b>20:43:46
+                     </div>
+                     <div>
+                        <b>Duration: </b>10s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="SkillSpark.CourseAdd_afterMethod_byStatus_passed_PASS12_row"
+                class="testMethodStatusPASS testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('SkillSpark.CourseAdd_afterMethod_byStatus_passed_PASS12_details')">afterMethod()</a>
+               </td>
+               <td nowrap="true">20:43:46</td>
+               <td nowrap="true" align="right">1s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="SkillSpark.CourseAdd_afterMethod_byStatus_passed_PASS12_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>afterMethod
+                     </div>
+                     <div>
+                        <b>Signature: </b>afterMethod()[pri:0, instance:SkillSpark.CourseAdd@6892b3b6]
+                     </div>
+                     <div>
+                        <b>Start time: </b>20:43:46
+                     </div>
+                     <div>
+                        <b>End time: </b>20:43:48
+                     </div>
+                     <div>
+                        <b>Duration: </b>1s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="SkillSpark.CourseAdd_beforeMethod_byStatus_passed_PASS13_row"
+                class="testMethodStatusPASS testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('SkillSpark.CourseAdd_beforeMethod_byStatus_passed_PASS13_details')">beforeMethod()</a>
+               </td>
+               <td nowrap="true">20:43:48</td>
+               <td nowrap="true" align="right">2s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="SkillSpark.CourseAdd_beforeMethod_byStatus_passed_PASS13_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>beforeMethod
+                     </div>
+                     <div>
+                        <b>Signature: </b>beforeMethod()[pri:0, instance:SkillSpark.CourseAdd@6892b3b6]
+                     </div>
+                     <div>
+                        <b>Start time: </b>20:43:48
+                     </div>
+                     <div>
+                        <b>End time: </b>20:43:50
+                     </div>
+                     <div>
+                        <b>Duration: </b>2s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="SkillSpark.CourseAdd_courseAdd_byStatus_passed_PASS14_row"
+                class="testMethodStatusPASS">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('SkillSpark.CourseAdd_courseAdd_byStatus_passed_PASS14_details')">courseAdd(Flutter
+                     
+                     ,
+                     
+                     This is a flutter course
+                     
+                     ,
+                     
+                     78
+                     
+                     ,
+                     
+                     App Development
+                     
+                     ,
+                     
+                     [Ljava.lang.String;@598657cd
+                     
+                     ,
+                     
+                     E:\Downloads\flutter.jpeg
+                     
+                     ,
+                     
+                     You will be a master in web development
+                     
+                     ,
+                     
+                     [Ljava.lang.String;@456aa471
+                     
+                     ,
+                     
+                     [Ljava.lang.String;@69e2fe3b
+                     
+                     ,
+                     
+                     [LSkillSpark.CourseAdd$Lecture;@27afbf14
+                     
+                     ,
+                     
+                     true)
+                  </a>
+               </td>
+               <td nowrap="true">20:43:50</td>
+               <td nowrap="true" align="right">10s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="SkillSpark.CourseAdd_courseAdd_byStatus_passed_PASS14_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>courseAdd
+                     </div>
+                     <div>
+                        <b>Signature: </b>courseAdd(java.lang.String,java.lang.String,java.lang.String,java.lang.String,[Ljava.lang.String;,java.lang.String,java.lang.String,[Ljava.lang.String;,[Ljava.lang.String;,[LSkillSpark.CourseAdd$Lecture;,boolean)[pri:0,
+                        instance:SkillSpark.CourseAdd@6892b3b6]
+                     </div>
+                     <div>
+                        <b>Parameters: </b>
+                        
+                        Flutter
+                        
+                        ,
+                        
+                        This is a flutter course
+                        
+                        ,
+                        
+                        78
+                        
+                        ,
+                        
+                        App Development
+                        
+                        ,
+                        
+                        [Ljava.lang.String;@598657cd
+                        
+                        ,
+                        
+                        E:\Downloads\flutter.jpeg
+                        
+                        ,
+                        
+                        You will be a master in web development
+                        
+                        ,
+                        
+                        [Ljava.lang.String;@456aa471
+                        
+                        ,
+                        
+                        [Ljava.lang.String;@69e2fe3b
+                        
+                        ,
+                        
+                        [LSkillSpark.CourseAdd$Lecture;@27afbf14
+                        
+                        ,
+                        
+                        true
+                        
+                        
+                     </div>
+                     <div>
+                        <b>Start time: </b>20:43:50
+                     </div>
+                     <div>
+                        <b>End time: </b>20:44:00
+                     </div>
+                     <div>
+                        <b>Duration: </b>10s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="SkillSpark.CourseAdd_afterMethod_byStatus_passed_PASS15_row"
+                class="testMethodStatusPASS testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('SkillSpark.CourseAdd_afterMethod_byStatus_passed_PASS15_details')">afterMethod()</a>
+               </td>
+               <td nowrap="true">20:44:00</td>
+               <td nowrap="true" align="right">905 ms
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="SkillSpark.CourseAdd_afterMethod_byStatus_passed_PASS15_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>afterMethod
+                     </div>
+                     <div>
+                        <b>Signature: </b>afterMethod()[pri:0, instance:SkillSpark.CourseAdd@6892b3b6]
+                     </div>
+                     <div>
+                        <b>Start time: </b>20:44:00
+                     </div>
+                     <div>
+                        <b>End time: </b>20:44:01
+                     </div>
+                     <div>
+                        <b>Duration: </b>905 ms
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="SkillSpark.CourseAdd_beforeMethod_byStatus_passed_PASS16_row"
+                class="testMethodStatusPASS testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('SkillSpark.CourseAdd_beforeMethod_byStatus_passed_PASS16_details')">beforeMethod()</a>
+               </td>
+               <td nowrap="true">20:44:01</td>
+               <td nowrap="true" align="right">2s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="SkillSpark.CourseAdd_beforeMethod_byStatus_passed_PASS16_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>beforeMethod
+                     </div>
+                     <div>
+                        <b>Signature: </b>beforeMethod()[pri:0, instance:SkillSpark.CourseAdd@6892b3b6]
+                     </div>
+                     <div>
+                        <b>Start time: </b>20:44:01
+                     </div>
+                     <div>
+                        <b>End time: </b>20:44:03
+                     </div>
+                     <div>
+                        <b>Duration: </b>2s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="SkillSpark.CourseAdd_afterMethod_byStatus_passed_PASS17_row"
+                class="testMethodStatusPASS testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('SkillSpark.CourseAdd_afterMethod_byStatus_passed_PASS17_details')">afterMethod()</a>
+               </td>
+               <td nowrap="true">20:44:15</td>
+               <td nowrap="true" align="right">1s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="SkillSpark.CourseAdd_afterMethod_byStatus_passed_PASS17_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>afterMethod
+                     </div>
+                     <div>
+                        <b>Signature: </b>afterMethod()[pri:0, instance:SkillSpark.CourseAdd@6892b3b6]
+                     </div>
+                     <div>
+                        <b>Start time: </b>20:44:15
+                     </div>
+                     <div>
+                        <b>End time: </b>20:44:16
+                     </div>
+                     <div>
+                        <b>Duration: </b>1s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="SkillSpark.AddToCart_beforeMethod_byStatus_passed_PASS18_row"
+                class="testMethodStatusPASS testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('SkillSpark.AddToCart_beforeMethod_byStatus_passed_PASS18_details')">beforeMethod()</a>
+               </td>
+               <td nowrap="true">20:42:46</td>
+               <td nowrap="true" align="right">2s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="SkillSpark.AddToCart_beforeMethod_byStatus_passed_PASS18_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>beforeMethod
+                     </div>
+                     <div>
+                        <b>Signature: </b>beforeMethod()[pri:0, instance:SkillSpark.AddToCart@18df8434]
+                     </div>
+                     <div>
+                        <b>Start time: </b>20:42:46
+                     </div>
+                     <div>
+                        <b>End time: </b>20:42:49
+                     </div>
+                     <div>
+                        <b>Duration: </b>2s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="SkillSpark.AddToCart_f_byStatus_passed_PASS19_row"
+                class="testMethodStatusPASS">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('SkillSpark.AddToCart_f_byStatus_passed_PASS19_details')">f()</a>
+               </td>
+               <td nowrap="true">20:42:49</td>
+               <td nowrap="true" align="right">7s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="SkillSpark.AddToCart_f_byStatus_passed_PASS19_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>f
+                     </div>
+                     <div>
+                        <b>Signature: </b>f()[pri:0, instance:SkillSpark.AddToCart@18df8434]
+                     </div>
+                     <div>
+                        <b>Start time: </b>20:42:49
+                     </div>
+                     <div>
+                        <b>End time: </b>20:42:56
+                     </div>
+                     <div>
+                        <b>Duration: </b>7s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="SkillSpark.AddToCart_beforeMethod_byStatus_passed_PASS20_row"
+                class="testMethodStatusPASS testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('SkillSpark.AddToCart_beforeMethod_byStatus_passed_PASS20_details')">beforeMethod()</a>
+               </td>
+               <td nowrap="true">20:42:56</td>
+               <td nowrap="true" align="right">2s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="SkillSpark.AddToCart_beforeMethod_byStatus_passed_PASS20_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>beforeMethod
+                     </div>
+                     <div>
+                        <b>Signature: </b>beforeMethod()[pri:0, instance:SkillSpark.AddToCart@18df8434]
+                     </div>
+                     <div>
+                        <b>Start time: </b>20:42:56
+                     </div>
+                     <div>
+                        <b>End time: </b>20:42:58
+                     </div>
+                     <div>
+                        <b>Duration: </b>2s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="SkillSpark.AddToCart_f_byStatus_passed_PASS21_row"
+                class="testMethodStatusPASS">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('SkillSpark.AddToCart_f_byStatus_passed_PASS21_details')">f()</a>
+               </td>
+               <td nowrap="true">20:42:58</td>
+               <td nowrap="true" align="right">7s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="SkillSpark.AddToCart_f_byStatus_passed_PASS21_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>f
+                     </div>
+                     <div>
+                        <b>Signature: </b>f()[pri:0, instance:SkillSpark.AddToCart@18df8434]
+                     </div>
+                     <div>
+                        <b>Start time: </b>20:42:58
+                     </div>
+                     <div>
+                        <b>End time: </b>20:43:05
+                     </div>
+                     <div>
+                        <b>Duration: </b>7s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="SkillSpark.AddToCart_beforeMethod_byStatus_passed_PASS22_row"
+                class="testMethodStatusPASS testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('SkillSpark.AddToCart_beforeMethod_byStatus_passed_PASS22_details')">beforeMethod()</a>
+               </td>
+               <td nowrap="true">20:43:05</td>
+               <td nowrap="true" align="right">2s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="SkillSpark.AddToCart_beforeMethod_byStatus_passed_PASS22_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>beforeMethod
+                     </div>
+                     <div>
+                        <b>Signature: </b>beforeMethod()[pri:0, instance:SkillSpark.AddToCart@18df8434]
+                     </div>
+                     <div>
+                        <b>Start time: </b>20:43:05
+                     </div>
+                     <div>
+                        <b>End time: </b>20:43:07
+                     </div>
+                     <div>
+                        <b>Duration: </b>2s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="SkillSpark.AddToCart_f_byStatus_passed_PASS23_row"
+                class="testMethodStatusPASS">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('SkillSpark.AddToCart_f_byStatus_passed_PASS23_details')">f()</a>
+               </td>
+               <td nowrap="true">20:43:07</td>
+               <td nowrap="true" align="right">7s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="SkillSpark.AddToCart_f_byStatus_passed_PASS23_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>f
+                     </div>
+                     <div>
+                        <b>Signature: </b>f()[pri:0, instance:SkillSpark.AddToCart@18df8434]
+                     </div>
+                     <div>
+                        <b>Start time: </b>20:43:07
+                     </div>
+                     <div>
+                        <b>End time: </b>20:43:14
+                     </div>
+                     <div>
+                        <b>Duration: </b>7s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="SkillSpark.AddToCart_beforeMethod_byStatus_passed_PASS24_row"
+                class="testMethodStatusPASS testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('SkillSpark.AddToCart_beforeMethod_byStatus_passed_PASS24_details')">beforeMethod()</a>
+               </td>
+               <td nowrap="true">20:43:14</td>
+               <td nowrap="true" align="right">2s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="SkillSpark.AddToCart_beforeMethod_byStatus_passed_PASS24_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>beforeMethod
+                     </div>
+                     <div>
+                        <b>Signature: </b>beforeMethod()[pri:0, instance:SkillSpark.AddToCart@18df8434]
+                     </div>
+                     <div>
+                        <b>Start time: </b>20:43:14
+                     </div>
+                     <div>
+                        <b>End time: </b>20:43:17
+                     </div>
+                     <div>
+                        <b>Duration: </b>2s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="SkillSpark.AddToCart_f_byStatus_passed_PASS25_row"
+                class="testMethodStatusPASS">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('SkillSpark.AddToCart_f_byStatus_passed_PASS25_details')">f()</a>
+               </td>
+               <td nowrap="true">20:43:17</td>
+               <td nowrap="true" align="right">7s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="SkillSpark.AddToCart_f_byStatus_passed_PASS25_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>f
+                     </div>
+                     <div>
+                        <b>Signature: </b>f()[pri:0, instance:SkillSpark.AddToCart@18df8434]
+                     </div>
+                     <div>
+                        <b>Start time: </b>20:43:17
+                     </div>
+                     <div>
+                        <b>End time: </b>20:43:24
+                     </div>
+                     <div>
+                        <b>Duration: </b>7s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="SkillSpark.AddToCart_beforeMethod_byStatus_passed_PASS26_row"
+                class="testMethodStatusPASS testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('SkillSpark.AddToCart_beforeMethod_byStatus_passed_PASS26_details')">beforeMethod()</a>
+               </td>
+               <td nowrap="true">20:43:24</td>
+               <td nowrap="true" align="right">2s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="SkillSpark.AddToCart_beforeMethod_byStatus_passed_PASS26_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>beforeMethod
+                     </div>
+                     <div>
+                        <b>Signature: </b>beforeMethod()[pri:0, instance:SkillSpark.AddToCart@18df8434]
+                     </div>
+                     <div>
+                        <b>Start time: </b>20:43:24
+                     </div>
+                     <div>
+                        <b>End time: </b>20:43:27
+                     </div>
+                     <div>
+                        <b>Duration: </b>2s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="SkillSpark.AddToCart_f_byStatus_passed_PASS27_row"
+                class="testMethodStatusPASS">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('SkillSpark.AddToCart_f_byStatus_passed_PASS27_details')">f()</a>
+               </td>
+               <td nowrap="true">20:43:27</td>
+               <td nowrap="true" align="right">7s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="SkillSpark.AddToCart_f_byStatus_passed_PASS27_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>f
+                     </div>
+                     <div>
+                        <b>Signature: </b>f()[pri:0, instance:SkillSpark.AddToCart@18df8434]
+                     </div>
+                     <div>
+                        <b>Start time: </b>20:43:27
+                     </div>
+                     <div>
+                        <b>End time: </b>20:43:34
+                     </div>
+                     <div>
+                        <b>Duration: </b>7s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+         </table>
+      </div>
+      <div id="testMethodsByClass">
+         <table class="testMethodsTable" cellpadding="0" cellspacing="0">
+            <tr>
+               <td colspan="4">
+                  <h3 style="display: inline;">SkillSpark.AddToCart</h3>
+               </td>
+            </tr>
+            <tr class="methodsTableHeader">
+               <td width="100%">Name</td>
+               <td nowrap="true">Started</td>
+               <td nowrap="true">Duration</td>
+               <td>Exception</td>
+            </tr>
+            <tr id="SkillSpark.AddToCart_beforeMethod_byClass_PASS1_row"
+                class="testMethodStatusPASS testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('SkillSpark.AddToCart_beforeMethod_byClass_PASS1_details')">beforeMethod()</a>
+               </td>
+               <td nowrap="true">20:42:46</td>
+               <td nowrap="true" align="right">2s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="SkillSpark.AddToCart_beforeMethod_byClass_PASS1_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>beforeMethod
+                     </div>
+                     <div>
+                        <b>Signature: </b>beforeMethod()[pri:0, instance:SkillSpark.AddToCart@18df8434]
+                     </div>
+                     <div>
+                        <b>Start time: </b>20:42:46
+                     </div>
+                     <div>
+                        <b>End time: </b>20:42:49
+                     </div>
+                     <div>
+                        <b>Duration: </b>2s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="SkillSpark.AddToCart_f_byClass_PASS2_row" class="testMethodStatusPASS">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('SkillSpark.AddToCart_f_byClass_PASS2_details')">f()</a>
+               </td>
+               <td nowrap="true">20:42:49</td>
+               <td nowrap="true" align="right">7s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="SkillSpark.AddToCart_f_byClass_PASS2_details" class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>f
+                     </div>
+                     <div>
+                        <b>Signature: </b>f()[pri:0, instance:SkillSpark.AddToCart@18df8434]
+                     </div>
+                     <div>
+                        <b>Start time: </b>20:42:49
+                     </div>
+                     <div>
+                        <b>End time: </b>20:42:56
+                     </div>
+                     <div>
+                        <b>Duration: </b>7s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="SkillSpark.AddToCart_beforeMethod_byClass_PASS3_row"
+                class="testMethodStatusPASS testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('SkillSpark.AddToCart_beforeMethod_byClass_PASS3_details')">beforeMethod()</a>
+               </td>
+               <td nowrap="true">20:42:56</td>
+               <td nowrap="true" align="right">2s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="SkillSpark.AddToCart_beforeMethod_byClass_PASS3_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>beforeMethod
+                     </div>
+                     <div>
+                        <b>Signature: </b>beforeMethod()[pri:0, instance:SkillSpark.AddToCart@18df8434]
+                     </div>
+                     <div>
+                        <b>Start time: </b>20:42:56
+                     </div>
+                     <div>
+                        <b>End time: </b>20:42:58
+                     </div>
+                     <div>
+                        <b>Duration: </b>2s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="SkillSpark.AddToCart_f_byClass_PASS4_row" class="testMethodStatusPASS">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('SkillSpark.AddToCart_f_byClass_PASS4_details')">f()</a>
+               </td>
+               <td nowrap="true">20:42:58</td>
+               <td nowrap="true" align="right">7s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="SkillSpark.AddToCart_f_byClass_PASS4_details" class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>f
+                     </div>
+                     <div>
+                        <b>Signature: </b>f()[pri:0, instance:SkillSpark.AddToCart@18df8434]
+                     </div>
+                     <div>
+                        <b>Start time: </b>20:42:58
+                     </div>
+                     <div>
+                        <b>End time: </b>20:43:05
+                     </div>
+                     <div>
+                        <b>Duration: </b>7s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="SkillSpark.AddToCart_beforeMethod_byClass_PASS5_row"
+                class="testMethodStatusPASS testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('SkillSpark.AddToCart_beforeMethod_byClass_PASS5_details')">beforeMethod()</a>
+               </td>
+               <td nowrap="true">20:43:05</td>
+               <td nowrap="true" align="right">2s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="SkillSpark.AddToCart_beforeMethod_byClass_PASS5_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>beforeMethod
+                     </div>
+                     <div>
+                        <b>Signature: </b>beforeMethod()[pri:0, instance:SkillSpark.AddToCart@18df8434]
+                     </div>
+                     <div>
+                        <b>Start time: </b>20:43:05
+                     </div>
+                     <div>
+                        <b>End time: </b>20:43:07
+                     </div>
+                     <div>
+                        <b>Duration: </b>2s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="SkillSpark.AddToCart_f_byClass_PASS6_row" class="testMethodStatusPASS">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('SkillSpark.AddToCart_f_byClass_PASS6_details')">f()</a>
+               </td>
+               <td nowrap="true">20:43:07</td>
+               <td nowrap="true" align="right">7s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="SkillSpark.AddToCart_f_byClass_PASS6_details" class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>f
+                     </div>
+                     <div>
+                        <b>Signature: </b>f()[pri:0, instance:SkillSpark.AddToCart@18df8434]
+                     </div>
+                     <div>
+                        <b>Start time: </b>20:43:07
+                     </div>
+                     <div>
+                        <b>End time: </b>20:43:14
+                     </div>
+                     <div>
+                        <b>Duration: </b>7s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="SkillSpark.AddToCart_beforeMethod_byClass_PASS7_row"
+                class="testMethodStatusPASS testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('SkillSpark.AddToCart_beforeMethod_byClass_PASS7_details')">beforeMethod()</a>
+               </td>
+               <td nowrap="true">20:43:14</td>
+               <td nowrap="true" align="right">2s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="SkillSpark.AddToCart_beforeMethod_byClass_PASS7_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>beforeMethod
+                     </div>
+                     <div>
+                        <b>Signature: </b>beforeMethod()[pri:0, instance:SkillSpark.AddToCart@18df8434]
+                     </div>
+                     <div>
+                        <b>Start time: </b>20:43:14
+                     </div>
+                     <div>
+                        <b>End time: </b>20:43:17
+                     </div>
+                     <div>
+                        <b>Duration: </b>2s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="SkillSpark.AddToCart_f_byClass_PASS8_row" class="testMethodStatusPASS">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('SkillSpark.AddToCart_f_byClass_PASS8_details')">f()</a>
+               </td>
+               <td nowrap="true">20:43:17</td>
+               <td nowrap="true" align="right">7s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="SkillSpark.AddToCart_f_byClass_PASS8_details" class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>f
+                     </div>
+                     <div>
+                        <b>Signature: </b>f()[pri:0, instance:SkillSpark.AddToCart@18df8434]
+                     </div>
+                     <div>
+                        <b>Start time: </b>20:43:17
+                     </div>
+                     <div>
+                        <b>End time: </b>20:43:24
+                     </div>
+                     <div>
+                        <b>Duration: </b>7s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="SkillSpark.AddToCart_beforeMethod_byClass_PASS9_row"
+                class="testMethodStatusPASS testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('SkillSpark.AddToCart_beforeMethod_byClass_PASS9_details')">beforeMethod()</a>
+               </td>
+               <td nowrap="true">20:43:24</td>
+               <td nowrap="true" align="right">2s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="SkillSpark.AddToCart_beforeMethod_byClass_PASS9_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>beforeMethod
+                     </div>
+                     <div>
+                        <b>Signature: </b>beforeMethod()[pri:0, instance:SkillSpark.AddToCart@18df8434]
+                     </div>
+                     <div>
+                        <b>Start time: </b>20:43:24
+                     </div>
+                     <div>
+                        <b>End time: </b>20:43:27
+                     </div>
+                     <div>
+                        <b>Duration: </b>2s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="SkillSpark.AddToCart_f_byClass_PASS10_row" class="testMethodStatusPASS">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('SkillSpark.AddToCart_f_byClass_PASS10_details')">f()</a>
+               </td>
+               <td nowrap="true">20:43:27</td>
+               <td nowrap="true" align="right">7s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="SkillSpark.AddToCart_f_byClass_PASS10_details" class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>f
+                     </div>
+                     <div>
+                        <b>Signature: </b>f()[pri:0, instance:SkillSpark.AddToCart@18df8434]
+                     </div>
+                     <div>
+                        <b>Start time: </b>20:43:27
+                     </div>
+                     <div>
+                        <b>End time: </b>20:43:34
+                     </div>
+                     <div>
+                        <b>Duration: </b>7s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+         </table>
+         <br></br>
+         <table class="testMethodsTable" cellpadding="0" cellspacing="0">
+            <tr>
+               <td colspan="4">
+                  <h3 style="display: inline;">SkillSpark.CourseAdd</h3>
+               </td>
+            </tr>
+            <tr class="methodsTableHeader">
+               <td width="100%">Name</td>
+               <td nowrap="true">Started</td>
+               <td nowrap="true">Duration</td>
+               <td>Exception</td>
+            </tr>
+            <tr id="SkillSpark.CourseAdd_beforeMethod_byClass_PASS1_row"
+                class="testMethodStatusPASS testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('SkillSpark.CourseAdd_beforeMethod_byClass_PASS1_details')">beforeMethod()</a>
+               </td>
+               <td nowrap="true">20:43:34</td>
+               <td nowrap="true" align="right">2s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="SkillSpark.CourseAdd_beforeMethod_byClass_PASS1_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>beforeMethod
+                     </div>
+                     <div>
+                        <b>Signature: </b>beforeMethod()[pri:0, instance:SkillSpark.CourseAdd@6892b3b6]
+                     </div>
+                     <div>
+                        <b>Start time: </b>20:43:34
+                     </div>
+                     <div>
+                        <b>End time: </b>20:43:36
+                     </div>
+                     <div>
+                        <b>Duration: </b>2s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="SkillSpark.CourseAdd_courseAdd_byClass_PASS2_row"
+                class="testMethodStatusPASS">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('SkillSpark.CourseAdd_courseAdd_byClass_PASS2_details')">courseAdd(MERN stack
+                     
+                     ,
+                     
+                     This is a mern stack course
+                     
+                     ,
+                     
+                     65
+                     
+                     ,
+                     
+                     Web Development
+                     
+                     ,
+                     
+                     [Ljava.lang.String;@598657cd
+                     
+                     ,
+                     
+                     E:\Downloads\mern-stack.png
+                     
+                     ,
+                     
+                     Will make you a good web developer
+                     
+                     ,
+                     
+                     [Ljava.lang.String;@456aa471
+                     
+                     ,
+                     
+                     [Ljava.lang.String;@69e2fe3b
+                     
+                     ,
+                     
+                     [LSkillSpark.CourseAdd$Lecture;@27afbf14
+                     
+                     ,
+                     
+                     true)
+                  </a>
+               </td>
+               <td nowrap="true">20:43:36</td>
+               <td nowrap="true" align="right">10s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="SkillSpark.CourseAdd_courseAdd_byClass_PASS2_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>courseAdd
+                     </div>
+                     <div>
+                        <b>Signature: </b>courseAdd(java.lang.String,java.lang.String,java.lang.String,java.lang.String,[Ljava.lang.String;,java.lang.String,java.lang.String,[Ljava.lang.String;,[Ljava.lang.String;,[LSkillSpark.CourseAdd$Lecture;,boolean)[pri:0,
+                        instance:SkillSpark.CourseAdd@6892b3b6]
+                     </div>
+                     <div>
+                        <b>Parameters: </b>
+                        
+                        MERN stack
+                        
+                        ,
+                        
+                        This is a mern stack course
+                        
+                        ,
+                        
+                        65
+                        
+                        ,
+                        
+                        Web Development
+                        
+                        ,
+                        
+                        [Ljava.lang.String;@598657cd
+                        
+                        ,
+                        
+                        E:\Downloads\mern-stack.png
+                        
+                        ,
+                        
+                        Will make you a good web developer
+                        
+                        ,
+                        
+                        [Ljava.lang.String;@456aa471
+                        
+                        ,
+                        
+                        [Ljava.lang.String;@69e2fe3b
+                        
+                        ,
+                        
+                        [LSkillSpark.CourseAdd$Lecture;@27afbf14
+                        
+                        ,
+                        
+                        true
+                        
+                        
+                     </div>
+                     <div>
+                        <b>Start time: </b>20:43:36
+                     </div>
+                     <div>
+                        <b>End time: </b>20:43:46
+                     </div>
+                     <div>
+                        <b>Duration: </b>10s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="SkillSpark.CourseAdd_afterMethod_byClass_PASS3_row"
+                class="testMethodStatusPASS testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('SkillSpark.CourseAdd_afterMethod_byClass_PASS3_details')">afterMethod()</a>
+               </td>
+               <td nowrap="true">20:43:46</td>
+               <td nowrap="true" align="right">1s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="SkillSpark.CourseAdd_afterMethod_byClass_PASS3_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>afterMethod
+                     </div>
+                     <div>
+                        <b>Signature: </b>afterMethod()[pri:0, instance:SkillSpark.CourseAdd@6892b3b6]
+                     </div>
+                     <div>
+                        <b>Start time: </b>20:43:46
+                     </div>
+                     <div>
+                        <b>End time: </b>20:43:48
+                     </div>
+                     <div>
+                        <b>Duration: </b>1s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="SkillSpark.CourseAdd_beforeMethod_byClass_PASS4_row"
+                class="testMethodStatusPASS testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('SkillSpark.CourseAdd_beforeMethod_byClass_PASS4_details')">beforeMethod()</a>
+               </td>
+               <td nowrap="true">20:43:48</td>
+               <td nowrap="true" align="right">2s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="SkillSpark.CourseAdd_beforeMethod_byClass_PASS4_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>beforeMethod
+                     </div>
+                     <div>
+                        <b>Signature: </b>beforeMethod()[pri:0, instance:SkillSpark.CourseAdd@6892b3b6]
+                     </div>
+                     <div>
+                        <b>Start time: </b>20:43:48
+                     </div>
+                     <div>
+                        <b>End time: </b>20:43:50
+                     </div>
+                     <div>
+                        <b>Duration: </b>2s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="SkillSpark.CourseAdd_courseAdd_byClass_PASS5_row"
+                class="testMethodStatusPASS">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('SkillSpark.CourseAdd_courseAdd_byClass_PASS5_details')">courseAdd(Flutter
+                     
+                     ,
+                     
+                     This is a flutter course
+                     
+                     ,
+                     
+                     78
+                     
+                     ,
+                     
+                     App Development
+                     
+                     ,
+                     
+                     [Ljava.lang.String;@598657cd
+                     
+                     ,
+                     
+                     E:\Downloads\flutter.jpeg
+                     
+                     ,
+                     
+                     You will be a master in web development
+                     
+                     ,
+                     
+                     [Ljava.lang.String;@456aa471
+                     
+                     ,
+                     
+                     [Ljava.lang.String;@69e2fe3b
+                     
+                     ,
+                     
+                     [LSkillSpark.CourseAdd$Lecture;@27afbf14
+                     
+                     ,
+                     
+                     true)
+                  </a>
+               </td>
+               <td nowrap="true">20:43:50</td>
+               <td nowrap="true" align="right">10s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="SkillSpark.CourseAdd_courseAdd_byClass_PASS5_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>courseAdd
+                     </div>
+                     <div>
+                        <b>Signature: </b>courseAdd(java.lang.String,java.lang.String,java.lang.String,java.lang.String,[Ljava.lang.String;,java.lang.String,java.lang.String,[Ljava.lang.String;,[Ljava.lang.String;,[LSkillSpark.CourseAdd$Lecture;,boolean)[pri:0,
+                        instance:SkillSpark.CourseAdd@6892b3b6]
+                     </div>
+                     <div>
+                        <b>Parameters: </b>
+                        
+                        Flutter
+                        
+                        ,
+                        
+                        This is a flutter course
+                        
+                        ,
+                        
+                        78
+                        
+                        ,
+                        
+                        App Development
+                        
+                        ,
+                        
+                        [Ljava.lang.String;@598657cd
+                        
+                        ,
+                        
+                        E:\Downloads\flutter.jpeg
+                        
+                        ,
+                        
+                        You will be a master in web development
+                        
+                        ,
+                        
+                        [Ljava.lang.String;@456aa471
+                        
+                        ,
+                        
+                        [Ljava.lang.String;@69e2fe3b
+                        
+                        ,
+                        
+                        [LSkillSpark.CourseAdd$Lecture;@27afbf14
+                        
+                        ,
+                        
+                        true
+                        
+                        
+                     </div>
+                     <div>
+                        <b>Start time: </b>20:43:50
+                     </div>
+                     <div>
+                        <b>End time: </b>20:44:00
+                     </div>
+                     <div>
+                        <b>Duration: </b>10s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="SkillSpark.CourseAdd_afterMethod_byClass_PASS6_row"
+                class="testMethodStatusPASS testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('SkillSpark.CourseAdd_afterMethod_byClass_PASS6_details')">afterMethod()</a>
+               </td>
+               <td nowrap="true">20:44:00</td>
+               <td nowrap="true" align="right">905 ms
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="SkillSpark.CourseAdd_afterMethod_byClass_PASS6_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>afterMethod
+                     </div>
+                     <div>
+                        <b>Signature: </b>afterMethod()[pri:0, instance:SkillSpark.CourseAdd@6892b3b6]
+                     </div>
+                     <div>
+                        <b>Start time: </b>20:44:00
+                     </div>
+                     <div>
+                        <b>End time: </b>20:44:01
+                     </div>
+                     <div>
+                        <b>Duration: </b>905 ms
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="SkillSpark.CourseAdd_beforeMethod_byClass_PASS7_row"
+                class="testMethodStatusPASS testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('SkillSpark.CourseAdd_beforeMethod_byClass_PASS7_details')">beforeMethod()</a>
+               </td>
+               <td nowrap="true">20:44:01</td>
+               <td nowrap="true" align="right">2s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="SkillSpark.CourseAdd_beforeMethod_byClass_PASS7_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>beforeMethod
+                     </div>
+                     <div>
+                        <b>Signature: </b>beforeMethod()[pri:0, instance:SkillSpark.CourseAdd@6892b3b6]
+                     </div>
+                     <div>
+                        <b>Start time: </b>20:44:01
+                     </div>
+                     <div>
+                        <b>End time: </b>20:44:03
+                     </div>
+                     <div>
+                        <b>Duration: </b>2s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="SkillSpark.CourseAdd_courseAdd_byClass_FAIL8_row"
+                class="testMethodStatusFAIL">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('SkillSpark.CourseAdd_courseAdd_byClass_FAIL8_details')">courseAdd(Flutter
+                     
+                     ,
+                     
+                     
+                     
+                     ,
+                     
+                     78
+                     
+                     ,
+                     
+                     App Development
+                     
+                     ,
+                     
+                     [Ljava.lang.String;@598657cd
+                     
+                     ,
+                     
+                     E:\Downloads\flutter.jpeg
+                     
+                     ,
+                     
+                     You will be a master in web development
+                     
+                     ,
+                     
+                     [Ljava.lang.String;@456aa471
+                     
+                     ,
+                     
+                     [Ljava.lang.String;@69e2fe3b
+                     
+                     ,
+                     
+                     [LSkillSpark.CourseAdd$Lecture;@27afbf14
+                     
+                     ,
+                     
+                     true)
+                  </a>
+               </td>
+               <td nowrap="true">20:44:03</td>
+               <td nowrap="true" align="right">11s
+                  
+               </td>
+               <td nowrap="true">
+                  <a onclick="toggleDetailsVisibility('SkillSpark.CourseAdd_courseAdd_byClass_FAIL8_exception')">org.openqa.selenium.NoSuchElementException: 
+                     no such element: Unable to locate element: {"method":"css selector","selector":"*[name='sectionName']"}
+                     (Session info: chrome=124.0.6367.63)
+                     For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+                     Build info: version: '4.18.1', revision: 'b1d3319b48'
+                     System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+                     Driver info: org.openqa.selenium.chrome.ChromeDriver
+                     Command: [fa7f11bd1cc09c01037e8cc270773f2f, findElement {using=name, value=sectionName}]
+                     Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.63, chrome: {chromedriverVersion:
+                     124.0.6367.91 (51df0e5e17a8..., userDataDir: C:\Users\ASUS\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress:
+                     localhost:58373}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp:
+                     ws://localhost:58373/devtoo..., se:cdpVersion: 124.0.6367.63, setWindowRect: true, strictFileInteractability: false, timeouts:
+                     {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob:
+                     true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators:
+                     true}
+                     Session ID: fa7f11bd1cc09c01037e8cc270773f2f
+                     
+                  </a>
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="SkillSpark.CourseAdd_courseAdd_byClass_FAIL8_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>courseAdd
+                     </div>
+                     <div>
+                        <b>Signature: </b>courseAdd(java.lang.String,java.lang.String,java.lang.String,java.lang.String,[Ljava.lang.String;,java.lang.String,java.lang.String,[Ljava.lang.String;,[Ljava.lang.String;,[LSkillSpark.CourseAdd$Lecture;,boolean)[pri:0,
+                        instance:SkillSpark.CourseAdd@6892b3b6]
+                     </div>
+                     <div>
+                        <b>Parameters: </b>
+                        
+                        Flutter
+                        
+                        ,
+                        
+                        
+                        
+                        ,
+                        
+                        78
+                        
+                        ,
+                        
+                        App Development
+                        
+                        ,
+                        
+                        [Ljava.lang.String;@598657cd
+                        
+                        ,
+                        
+                        E:\Downloads\flutter.jpeg
+                        
+                        ,
+                        
+                        You will be a master in web development
+                        
+                        ,
+                        
+                        [Ljava.lang.String;@456aa471
+                        
+                        ,
+                        
+                        [Ljava.lang.String;@69e2fe3b
+                        
+                        ,
+                        
+                        [LSkillSpark.CourseAdd$Lecture;@27afbf14
+                        
+                        ,
+                        
+                        true
+                        
+                        
+                     </div>
+                     <div>
+                        <b>Start time: </b>20:44:03
+                     </div>
+                     <div>
+                        <b>End time: </b>20:44:15
+                     </div>
+                     <div>
+                        <b>Duration: </b>11s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="SkillSpark.CourseAdd_courseAdd_byClass_FAIL8_exception"
+                       class="testMethodDetails">
+                     <pre style="padding: 5px; margin: 0;">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"*[name='sectionName']"}
+                        (Session info: chrome=124.0.6367.63)
+                        For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+                        Build info: version: '4.18.1', revision: 'b1d3319b48'
+                        System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+                        Driver info: org.openqa.selenium.chrome.ChromeDriver
+                        Command: [fa7f11bd1cc09c01037e8cc270773f2f, findElement {using=name, value=sectionName}]
+                        Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.63, chrome: {chromedriverVersion:
+                        124.0.6367.91 (51df0e5e17a8..., userDataDir: C:\Users\ASUS\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress:
+                        localhost:58373}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp:
+                        ws://localhost:58373/devtoo..., se:cdpVersion: 124.0.6367.63, setWindowRect: true, strictFileInteractability: false, timeouts:
+                        {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob:
+                        true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators:
+                        true}
+                        Session ID: fa7f11bd1cc09c01037e8cc270773f2f
+                        at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+                        at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+                        at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+                        at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+                        at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+                        at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+                        at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+                        at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+                        at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+                        at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+                        at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+                        at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+                        at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+                        at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+                        at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
+                        at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+                        at SkillSpark.CourseAdd.part2(CourseAdd.java:34)
+                        at SkillSpark.CourseAdd.courseAdd(CourseAdd.java:114)
+                        at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+                        at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+                        at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+                        at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+                        at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+                        at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+                        at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+                        at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+                        at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+                        at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+                        at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+                        at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+                        at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+                        at org.testng.TestRunner.privateRun(TestRunner.java:819)
+                        at org.testng.TestRunner.run(TestRunner.java:619)
+                        at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+                        at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+                        at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+                        at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+                        at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+                        at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+                        at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+                        at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+                        at org.testng.TestNG.runSuites(TestNG.java:1134)
+                        at org.testng.TestNG.run(TestNG.java:1101)
+                        at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+                        at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+                        at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+                     </pre>
+                  </div>
+               </td>
+            </tr>
+            <tr id="SkillSpark.CourseAdd_afterMethod_byClass_PASS9_row"
+                class="testMethodStatusPASS testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('SkillSpark.CourseAdd_afterMethod_byClass_PASS9_details')">afterMethod()</a>
+               </td>
+               <td nowrap="true">20:44:15</td>
+               <td nowrap="true" align="right">1s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="SkillSpark.CourseAdd_afterMethod_byClass_PASS9_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>afterMethod
+                     </div>
+                     <div>
+                        <b>Signature: </b>afterMethod()[pri:0, instance:SkillSpark.CourseAdd@6892b3b6]
+                     </div>
+                     <div>
+                        <b>Start time: </b>20:44:15
+                     </div>
+                     <div>
+                        <b>End time: </b>20:44:16
+                     </div>
+                     <div>
+                        <b>Duration: </b>1s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+         </table>
+         <br></br>
+         <table class="testMethodsTable" cellpadding="0" cellspacing="0">
+            <tr>
+               <td colspan="4">
+                  <h3 style="display: inline;">SkillSpark.Login</h3>
+               </td>
+            </tr>
+            <tr class="methodsTableHeader">
+               <td width="100%">Name</td>
+               <td nowrap="true">Started</td>
+               <td nowrap="true">Duration</td>
+               <td>Exception</td>
+            </tr>
+            <tr id="SkillSpark.Login_loginFunction_byClass_FAIL1_row"
+                class="testMethodStatusFAIL">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('SkillSpark.Login_loginFunction_byClass_FAIL1_details')">loginFunction(rvrv66692@gmail.com
+                     
+                     ,
+                     
+                     654321@Abc)
+                  </a>
+               </td>
+               <td nowrap="true">20:44:16</td>
+               <td nowrap="true" align="right">9s
+                  
+               </td>
+               <td nowrap="true">
+                  <a onclick="toggleDetailsVisibility('SkillSpark.Login_loginFunction_byClass_FAIL1_exception')">java.lang.AssertionError: 
+                     expected [https://new-skill-spark.vercel.app/dashboard/my-profile] but found [https://new-skill-spark.vercel.app/signup]
+                     
+                  </a>
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="SkillSpark.Login_loginFunction_byClass_FAIL1_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>loginFunction
+                     </div>
+                     <div>
+                        <b>Signature: </b>loginFunction(java.lang.String,java.lang.String)[pri:0, instance:SkillSpark.Login@6e6f2380]
+                     </div>
+                     <div>
+                        <b>Parameters: </b>
+                        
+                        rvrv66692@gmail.com
+                        
+                        ,
+                        
+                        654321@Abc
+                        
+                        
+                     </div>
+                     <div>
+                        <b>Start time: </b>20:44:16
+                     </div>
+                     <div>
+                        <b>End time: </b>20:44:25
+                     </div>
+                     <div>
+                        <b>Duration: </b>9s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="SkillSpark.Login_loginFunction_byClass_FAIL1_exception"
+                       class="testMethodDetails">
+                     <pre style="padding: 5px; margin: 0;">java.lang.AssertionError: expected [https://new-skill-spark.vercel.app/dashboard/my-profile] but found [https://new-skill-spark.vercel.app/signup]
+                        at org.testng.Assert.fail(Assert.java:111)
+                        at org.testng.Assert.failNotEquals(Assert.java:1578)
+                        at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+                        at org.testng.Assert.assertEquals(Assert.java:132)
+                        at org.testng.Assert.assertEquals(Assert.java:656)
+                        at org.testng.Assert.assertEquals(Assert.java:666)
+                        at SkillSpark.Login.loginFunction(Login.java:21)
+                        at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+                        at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+                        at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+                        at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+                        at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+                        at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+                        at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+                        at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+                        at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+                        at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+                        at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+                        at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+                        at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+                        at org.testng.TestRunner.privateRun(TestRunner.java:819)
+                        at org.testng.TestRunner.run(TestRunner.java:619)
+                        at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+                        at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+                        at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+                        at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+                        at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+                        at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+                        at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+                        at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+                        at org.testng.TestNG.runSuites(TestNG.java:1134)
+                        at org.testng.TestNG.run(TestNG.java:1101)
+                        at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+                        at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+                        at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+                     </pre>
+                  </div>
+               </td>
+            </tr>
+            <tr id="SkillSpark.Login_loginFunction_byClass_FAIL2_row"
+                class="testMethodStatusFAIL">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('SkillSpark.Login_loginFunction_byClass_FAIL2_details')">loginFunction(bhjsdfjg@ggmail.com
+                     
+                     ,
+                     
+                     654321@Abc)
+                  </a>
+               </td>
+               <td nowrap="true">20:44:25</td>
+               <td nowrap="true" align="right">9s
+                  
+               </td>
+               <td nowrap="true">
+                  <a onclick="toggleDetailsVisibility('SkillSpark.Login_loginFunction_byClass_FAIL2_exception')">java.lang.AssertionError: 
+                     expected [https://new-skill-spark.vercel.app/dashboard/my-profile] but found [https://new-skill-spark.vercel.app/signup]
+                     
+                  </a>
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="SkillSpark.Login_loginFunction_byClass_FAIL2_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>loginFunction
+                     </div>
+                     <div>
+                        <b>Signature: </b>loginFunction(java.lang.String,java.lang.String)[pri:0, instance:SkillSpark.Login@6e6f2380]
+                     </div>
+                     <div>
+                        <b>Parameters: </b>
+                        
+                        bhjsdfjg@ggmail.com
+                        
+                        ,
+                        
+                        654321@Abc
+                        
+                        
+                     </div>
+                     <div>
+                        <b>Start time: </b>20:44:25
+                     </div>
+                     <div>
+                        <b>End time: </b>20:44:35
+                     </div>
+                     <div>
+                        <b>Duration: </b>9s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="SkillSpark.Login_loginFunction_byClass_FAIL2_exception"
+                       class="testMethodDetails">
+                     <pre style="padding: 5px; margin: 0;">java.lang.AssertionError: expected [https://new-skill-spark.vercel.app/dashboard/my-profile] but found [https://new-skill-spark.vercel.app/signup]
+                        at org.testng.Assert.fail(Assert.java:111)
+                        at org.testng.Assert.failNotEquals(Assert.java:1578)
+                        at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+                        at org.testng.Assert.assertEquals(Assert.java:132)
+                        at org.testng.Assert.assertEquals(Assert.java:656)
+                        at org.testng.Assert.assertEquals(Assert.java:666)
+                        at SkillSpark.Login.loginFunction(Login.java:21)
+                        at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+                        at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+                        at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+                        at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+                        at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+                        at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+                        at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+                        at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+                        at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+                        at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+                        at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+                        at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+                        at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+                        at org.testng.TestRunner.privateRun(TestRunner.java:819)
+                        at org.testng.TestRunner.run(TestRunner.java:619)
+                        at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+                        at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+                        at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+                        at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+                        at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+                        at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+                        at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+                        at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+                        at org.testng.TestNG.runSuites(TestNG.java:1134)
+                        at org.testng.TestNG.run(TestNG.java:1101)
+                        at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+                        at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+                        at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+                     </pre>
+                  </div>
+               </td>
+            </tr>
+         </table>
+         <br></br>
+         <table class="testMethodsTable" cellpadding="0" cellspacing="0">
+            <tr>
+               <td colspan="4">
+                  <h3 style="display: inline;">SkillSpark.Signup</h3>
+               </td>
+            </tr>
+            <tr class="methodsTableHeader">
+               <td width="100%">Name</td>
+               <td nowrap="true">Started</td>
+               <td nowrap="true">Duration</td>
+               <td>Exception</td>
+            </tr>
+            <tr id="SkillSpark.Signup_main_function_byClass_PASS1_row"
+                class="testMethodStatusPASS">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('SkillSpark.Signup_main_function_byClass_PASS1_details')">main_function(John
+                     
+                     ,
+                     
+                     Doe
+                     
+                     ,
+                     
+                     john.doe@example.com
+                     
+                     ,
+                     
+                     passwor
+                     
+                     ,
+                     
+                     passwor)
+                  </a>
+               </td>
+               <td nowrap="true">20:41:19</td>
+               <td nowrap="true" align="right">9s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="SkillSpark.Signup_main_function_byClass_PASS1_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>main_function
+                     </div>
+                     <div>
+                        <b>Signature: </b>main_function(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:SkillSpark.Signup@942a29c]
+                     </div>
+                     <div>
+                        <b>Parameters: </b>
+                        
+                        John
+                        
+                        ,
+                        
+                        Doe
+                        
+                        ,
+                        
+                        john.doe@example.com
+                        
+                        ,
+                        
+                        passwor
+                        
+                        ,
+                        
+                        passwor
+                        
+                        
+                     </div>
+                     <div>
+                        <b>Start time: </b>20:41:19
+                     </div>
+                     <div>
+                        <b>End time: </b>20:41:29
+                     </div>
+                     <div>
+                        <b>Duration: </b>9s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="SkillSpark.Signup_main_function_byClass_PASS2_row"
+                class="testMethodStatusPASS">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('SkillSpark.Signup_main_function_byClass_PASS2_details')">main_function(Jane
+                     
+                     ,
+                     
+                     Doe
+                     
+                     ,
+                     
+                     jane.doe@example.com
+                     
+                     ,
+                     
+                     veryLongPassword1234567890
+                     
+                     ,
+                     
+                     veryLongPassword1234567890)
+                  </a>
+               </td>
+               <td nowrap="true">20:41:29</td>
+               <td nowrap="true" align="right">9s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="SkillSpark.Signup_main_function_byClass_PASS2_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>main_function
+                     </div>
+                     <div>
+                        <b>Signature: </b>main_function(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:SkillSpark.Signup@942a29c]
+                     </div>
+                     <div>
+                        <b>Parameters: </b>
+                        
+                        Jane
+                        
+                        ,
+                        
+                        Doe
+                        
+                        ,
+                        
+                        jane.doe@example.com
+                        
+                        ,
+                        
+                        veryLongPassword1234567890
+                        
+                        ,
+                        
+                        veryLongPassword1234567890
+                        
+                        
+                     </div>
+                     <div>
+                        <b>Start time: </b>20:41:29
+                     </div>
+                     <div>
+                        <b>End time: </b>20:41:38
+                     </div>
+                     <div>
+                        <b>Duration: </b>9s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="SkillSpark.Signup_main_function_byClass_PASS3_row"
+                class="testMethodStatusPASS">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('SkillSpark.Signup_main_function_byClass_PASS3_details')">main_function(Michael
+                     
+                     ,
+                     
+                     Scott
+                     
+                     ,
+                     
+                     michael.scott@dundermifflin.com
+                     
+                     ,
+                     
+                     PASSWORD123!
+                     
+                     ,
+                     
+                     PASSWORD123!)
+                  </a>
+               </td>
+               <td nowrap="true">20:41:38</td>
+               <td nowrap="true" align="right">9s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="SkillSpark.Signup_main_function_byClass_PASS3_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>main_function
+                     </div>
+                     <div>
+                        <b>Signature: </b>main_function(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:SkillSpark.Signup@942a29c]
+                     </div>
+                     <div>
+                        <b>Parameters: </b>
+                        
+                        Michael
+                        
+                        ,
+                        
+                        Scott
+                        
+                        ,
+                        
+                        michael.scott@dundermifflin.com
+                        
+                        ,
+                        
+                        PASSWORD123!
+                        
+                        ,
+                        
+                        PASSWORD123!
+                        
+                        
+                     </div>
+                     <div>
+                        <b>Start time: </b>20:41:38
+                     </div>
+                     <div>
+                        <b>End time: </b>20:41:48
+                     </div>
+                     <div>
+                        <b>Duration: </b>9s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="SkillSpark.Signup_main_function_byClass_PASS4_row"
+                class="testMethodStatusPASS">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('SkillSpark.Signup_main_function_byClass_PASS4_details')">main_function(Dwight
+                     
+                     ,
+                     
+                     Schrute
+                     
+                     ,
+                     
+                     dwight.schrute@dundermifflin.com
+                     
+                     ,
+                     
+                     password123$
+                     
+                     ,
+                     
+                     password123$)
+                  </a>
+               </td>
+               <td nowrap="true">20:41:48</td>
+               <td nowrap="true" align="right">10s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="SkillSpark.Signup_main_function_byClass_PASS4_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>main_function
+                     </div>
+                     <div>
+                        <b>Signature: </b>main_function(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:SkillSpark.Signup@942a29c]
+                     </div>
+                     <div>
+                        <b>Parameters: </b>
+                        
+                        Dwight
+                        
+                        ,
+                        
+                        Schrute
+                        
+                        ,
+                        
+                        dwight.schrute@dundermifflin.com
+                        
+                        ,
+                        
+                        password123$
+                        
+                        ,
+                        
+                        password123$
+                        
+                        
+                     </div>
+                     <div>
+                        <b>Start time: </b>20:41:48
+                     </div>
+                     <div>
+                        <b>End time: </b>20:41:59
+                     </div>
+                     <div>
+                        <b>Duration: </b>10s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="SkillSpark.Signup_main_function_byClass_PASS5_row"
+                class="testMethodStatusPASS">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('SkillSpark.Signup_main_function_byClass_PASS5_details')">main_function(Pam
+                     
+                     ,
+                     
+                     Beesly
+                     
+                     ,
+                     
+                     pam.beesly@dundermifflin.com
+                     
+                     ,
+                     
+                     password1234
+                     
+                     ,
+                     
+                     password1234)
+                  </a>
+               </td>
+               <td nowrap="true">20:41:59</td>
+               <td nowrap="true" align="right">9s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="SkillSpark.Signup_main_function_byClass_PASS5_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>main_function
+                     </div>
+                     <div>
+                        <b>Signature: </b>main_function(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:SkillSpark.Signup@942a29c]
+                     </div>
+                     <div>
+                        <b>Parameters: </b>
+                        
+                        Pam
+                        
+                        ,
+                        
+                        Beesly
+                        
+                        ,
+                        
+                        pam.beesly@dundermifflin.com
+                        
+                        ,
+                        
+                        password1234
+                        
+                        ,
+                        
+                        password1234
+                        
+                        
+                     </div>
+                     <div>
+                        <b>Start time: </b>20:41:59
+                     </div>
+                     <div>
+                        <b>End time: </b>20:42:08
+                     </div>
+                     <div>
+                        <b>Duration: </b>9s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="SkillSpark.Signup_main_function_byClass_PASS6_row"
+                class="testMethodStatusPASS">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('SkillSpark.Signup_main_function_byClass_PASS6_details')">main_function(Jim
+                     
+                     ,
+                     
+                     Halpert
+                     
+                     ,
+                     
+                     jim.halpert@dundermifflin.com
+                     
+                     ,
+                     
+                     password123$
+                     
+                     ,
+                     
+                     differentPassword)
+                  </a>
+               </td>
+               <td nowrap="true">20:42:08</td>
+               <td nowrap="true" align="right">9s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="SkillSpark.Signup_main_function_byClass_PASS6_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>main_function
+                     </div>
+                     <div>
+                        <b>Signature: </b>main_function(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:SkillSpark.Signup@942a29c]
+                     </div>
+                     <div>
+                        <b>Parameters: </b>
+                        
+                        Jim
+                        
+                        ,
+                        
+                        Halpert
+                        
+                        ,
+                        
+                        jim.halpert@dundermifflin.com
+                        
+                        ,
+                        
+                        password123$
+                        
+                        ,
+                        
+                        differentPassword
+                        
+                        
+                     </div>
+                     <div>
+                        <b>Start time: </b>20:42:08
+                     </div>
+                     <div>
+                        <b>End time: </b>20:42:18
+                     </div>
+                     <div>
+                        <b>Duration: </b>9s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="SkillSpark.Signup_main_function_byClass_PASS7_row"
+                class="testMethodStatusPASS">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('SkillSpark.Signup_main_function_byClass_PASS7_details')">main_function(Angela
+                     
+                     ,
+                     
+                     Martin
+                     
+                     ,
+                     
+                     angela.martin@dundermifflin.com
+                     
+                     ,
+                     
+                     Password123$
+                     
+                     ,
+                     
+                     Password123$)
+                  </a>
+               </td>
+               <td nowrap="true">20:42:18</td>
+               <td nowrap="true" align="right">9s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="SkillSpark.Signup_main_function_byClass_PASS7_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>main_function
+                     </div>
+                     <div>
+                        <b>Signature: </b>main_function(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:SkillSpark.Signup@942a29c]
+                     </div>
+                     <div>
+                        <b>Parameters: </b>
+                        
+                        Angela
+                        
+                        ,
+                        
+                        Martin
+                        
+                        ,
+                        
+                        angela.martin@dundermifflin.com
+                        
+                        ,
+                        
+                        Password123$
+                        
+                        ,
+                        
+                        Password123$
+                        
+                        
+                     </div>
+                     <div>
+                        <b>Start time: </b>20:42:18
+                     </div>
+                     <div>
+                        <b>End time: </b>20:42:27
+                     </div>
+                     <div>
+                        <b>Duration: </b>9s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="SkillSpark.Signup_main_function_byClass_PASS8_row"
+                class="testMethodStatusPASS">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('SkillSpark.Signup_main_function_byClass_PASS8_details')">main_function(Kevin
+                     
+                     ,
+                     
+                     Malone
+                     
+                     ,
+                     
+                     kevin.malone@dundermifflin.com
+                     
+                     ,
+                     
+                     654321@Abc
+                     
+                     ,
+                     
+                     65432@Ab)
+                  </a>
+               </td>
+               <td nowrap="true">20:42:27</td>
+               <td nowrap="true" align="right">9s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="SkillSpark.Signup_main_function_byClass_PASS8_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>main_function
+                     </div>
+                     <div>
+                        <b>Signature: </b>main_function(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:SkillSpark.Signup@942a29c]
+                     </div>
+                     <div>
+                        <b>Parameters: </b>
+                        
+                        Kevin
+                        
+                        ,
+                        
+                        Malone
+                        
+                        ,
+                        
+                        kevin.malone@dundermifflin.com
+                        
+                        ,
+                        
+                        654321@Abc
+                        
+                        ,
+                        
+                        65432@Ab
+                        
+                        
+                     </div>
+                     <div>
+                        <b>Start time: </b>20:42:27
+                     </div>
+                     <div>
+                        <b>End time: </b>20:42:37
+                     </div>
+                     <div>
+                        <b>Duration: </b>9s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="SkillSpark.Signup_main_function_byClass_PASS9_row"
+                class="testMethodStatusPASS">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('SkillSpark.Signup_main_function_byClass_PASS9_details')">main_function(Oscar
+                     
+                     ,
+                     
+                     Martinez
+                     
+                     ,
+                     
+                     oscar.martinez@dundermifflin.com
+                     
+                     ,
+                     
+                     12345678@ADc
+                     
+                     ,
+                     
+                     12345678@ADc)
+                  </a>
+               </td>
+               <td nowrap="true">20:42:37</td>
+               <td nowrap="true" align="right">9s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="SkillSpark.Signup_main_function_byClass_PASS9_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>main_function
+                     </div>
+                     <div>
+                        <b>Signature: </b>main_function(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:SkillSpark.Signup@942a29c]
+                     </div>
+                     <div>
+                        <b>Parameters: </b>
+                        
+                        Oscar
+                        
+                        ,
+                        
+                        Martinez
+                        
+                        ,
+                        
+                        oscar.martinez@dundermifflin.com
+                        
+                        ,
+                        
+                        12345678@ADc
+                        
+                        ,
+                        
+                        12345678@ADc
+                        
+                        
+                     </div>
+                     <div>
+                        <b>Start time: </b>20:42:37
+                     </div>
+                     <div>
+                        <b>End time: </b>20:42:46
+                     </div>
+                     <div>
+                        <b>Duration: </b>9s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+         </table>
+         <br></br>
+      </div>
+      <div style="margin-top: 15px; color: gray; text-align: center; font-size: 9px;">
+         Generated with
+         
+         <a href="http://code.google.com/p/testng-xslt/" style="color: #8888aa;"
+            target="_blank">
+            TestNG XSLT
+            
+         </a>
+      </div>
+   </body>
+</html>
